@@ -17,7 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BooksListing"
+        <activity android:name=".BookListing"
             android:label="Search Result"
             android:parentActivityName=".MainActivity">
             <meta-data

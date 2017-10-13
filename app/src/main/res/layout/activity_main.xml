@@ -67,4 +67,11 @@
         android:id="@+id/search_button" />
 
 </LinearLayout>
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_centerInParent="true"
+        android:src="@drawable/mic" />
 </RelativeLayout>

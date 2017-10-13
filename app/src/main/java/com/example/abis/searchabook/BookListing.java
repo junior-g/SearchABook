@@ -16,8 +16,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -26,7 +24,7 @@ import android.app.LoaderManager.LoaderCallbacks;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BooksListing extends AppCompatActivity implements LoaderCallbacks<List<Books>>{
+public class BookListing extends AppCompatActivity implements LoaderCallbacks<List<Books>>{
     private  static  final  int LOADER_ID=1;
     private AdapterList mAdapter;
     private TextView mEmptyStateTextView;
